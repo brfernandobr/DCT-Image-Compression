@@ -13,6 +13,11 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 
 ## Descrição do Projeto
+> O objetivo deste projeto é desenvolver um programa em linguagem Python para executar a compressão *lossy* de imagens usando a Transformada Discreta de Cosseno (DCT, na sigla em inglês). Este algoritmo é amplamente usado por diversos padrões, como o JPEG para compressão de imagens e o MPEG para compressão de vídeos.
+> 
+> O termo inglês *lossy* significa que a imagem obtida após a aplicação do algoritmo possui perda de qualidade em relação à imagem original, em oposição a uma compressão *lossless* em que não há perda de qualidade.
+> 
+> 
 > Descrição do tema do projeto, incluindo contexto gerador, motivação.
 > Descrição do objetivo principal do projeto.
 > Subseções podem ser criadas para organizar o texto.
@@ -37,4 +42,8 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 > Inclua no seu plano de trabalho a etapa de escrita de relatório final do projeto.
 
 ## Referências Bibliográficas
-> Nesta primeira entrega do projeto você já deve apontar as referências bibliográficas iniciais que você adotará no projeto.
+> https://en.wikipedia.org/wiki/Discrete_cosine_transform
+> 
+> https://en.wikipedia.org/wiki/JPEG
+> 
+> https://www.math.cuhk.edu.hk/~lmlui/dct.pdf
