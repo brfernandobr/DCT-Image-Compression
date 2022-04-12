@@ -13,11 +13,11 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 
 ## Descrição do Projeto
-> Este projeto consiste em desenvolver um programa em linguagem Python para executar a compressão *lossy* de imagens usando a Transformada Discreta de Cosseno (DCT, na sigla em inglês). Este algoritmo é amplamente usado por diversos padrões populares, como o JPEG para compressão de imagens e o MPEG para compressão de vídeos. O termo inglês *lossy* significa que a imagem obtida após a aplicação do algoritmo possui perda de qualidade em relação à imagem original, em oposição a uma compressão *lossless* em que não há perda de qualidade.
+> Este projeto consiste em desenvolver um programa em linguagem Python para executar a compressão *lossy* de imagens usando a Transformada Discreta de Cosseno (DCT, na sigla em inglês). Este algoritmo é amplamente usado por diversos padrões populares, como o JPEG para compressão de imagens e o MPEG para compressão de vídeos. O termo inglês *lossy* significa que a imagem obtida possui perda de qualidade em relação à imagem original, em oposição a uma compressão *lossless* em que não há perda de qualidade.
 > 
-> A motivação vem da constatação de que, sem técnicas de compressão de imagens e vídeos como a efetuada pelo algoritmo DCT, a internet não existiria da forma como a conhecemos hoje. Serviços de hospedagem de fotografias e imagens bem como a sua troca pela internet seriam bastante impactados caso tivessem que usar arquivos *bitmap* sem compressão. Aplicações *web* como o YouTube, para hospedagem de vídeo, dificilmente poderiam existir, bem como serviços de vídeoconferência e vídeoaulas *online*. Podemos dizer que o impacto do algoritmo DCT se estende a todas as áreas da vida cotidiana, como lazer, trabalho, educação.
+> A motivação vem da constatação de que, sem técnicas adequadas de compressão de imagens e vídeos como a efetuada pelo algoritmo DCT, a internet não existiria na forma como a conhecemos hoje. Serviços de hospedagem de fotografias e imagens bem como a sua troca pela internet seriam bastante impactados caso tivessem que usar arquivos *bitmap* sem compressão ou *png* com compressão *lossless*. Aplicações *web* como o YouTube, para hospedagem de vídeo, dificilmente poderiam existir, bem como serviços de vídeoconferência e vídeoaulas *online*. Podemos dizer que o impacto do algoritmo DCT se estende a praticamente todas as áreas da vida cotidiana, como lazer, trabalho, educação etc.
 > 
-> O objetivo principal é investigar qual o resultado da compressão de uma imagem por meio do algoritmo DCT usando diferentes níveis ou taxas de compressão, qual o impacto na qualidade da imagem assim obtida.
+> O objetivo principal é investigar qual é a relação entre o nível ou taxa de compressão utilizada pelo algoritmo de compressão e o impacto na qualidade da imagem assim obtida.
 
 
 ## Plano de Trabalho
