@@ -21,22 +21,22 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 
 ## Plano de Trabalho
-> * Etapa 1 (até o final de abril/2022): Estudo teórico do algoritmo DCT e do padrao JPEG
+> * Etapa 1 (até o final de abril/2022): Estudo teórico do algoritmo de compressão de imagens baseado em DCT, em particular o estudo do padrao JPEG.
 > 
 >     Será necessários estudar, dentre outras coisas:
->     - Conversão do espaço de cores RGB para o espaço YCbCr
->     - Chroma subsampling, em particular com taxa 4:2:0
->     - Separação ou quebra da imagem em blocos 8x8, 16x8 ou 16x16
->     - O algoritmo DCT, que consiste na decomposição da imagem de cada bloco nas componentes de frequência espacial
->     - Quantização, que consiste em um truncamento para descartar altas frequências
->     - Codificação entrópica, que consiste em uma codificação *lossless*, para armazenar de forma eficiente os dados obtidos da quantização
+>     - Conversão do espaço de cores RGB para o espaço YCbCr;
+>     - Chroma subsampling, em particular com taxa 4:2:0;
+>     - Separação ou quebra da imagem em blocos 8x8, 16x8 ou 16x16;
+>     - O algoritmo DCT, que consiste na decomposição da imagem de cada bloco nas componentes de frequência espacial;
+>     - Quantização, que consiste em um truncamento para descartar altas frequências;
+>     - Codificação entrópica, que consiste em uma codificação *lossless*, para armazenar de forma eficiente os dados obtidos da quantização.
 >     
 > 
-> * Etapa 2 (mês de maio/2022): codificação do algoritmo em Python
+> * Etapa 2 (mês de maio/2022): codificação do algoritmo em Python.
 > 
 >     Consistirá em tentar implementar na linguagem Python o algoritmo estudado na etapa anterior.
 >     
-> * Etapa 3 (mês de junho/2022): testes, aprimoramentos e elaboração do relatório final
+> * Etapa 3 (mês de junho/2022): testes, aprimoramentos e elaboração do relatório final.
 
 
 ## Referências Bibliográficas
