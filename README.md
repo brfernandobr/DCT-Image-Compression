@@ -21,23 +21,22 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 
 ## Plano de Trabalho
-> Nesta primeira entrega, seu grupo deve ser capaz de identificar quais são as etapas necessárias para alcançar o objetivo proposto.
-> Nesta seção, identifique claramente essas etapas, estimando o tempo que o seu grupo gastará em cada uma delas.
-> Por exemplo:
-> * Etapa 1 (1 semana): Estudo de técnicas de segmentação de imagens
+> * Etapa 1 (até o final de abril/2022): Estudo teórico do algoritmo DCT e do padrao JPEG
 > 
->     Descrição do que será realizado na Etapa 1.
-> * Etapa 2 (1 semana): Obtenção de dados pública de imagens de laranjas
-> 
->     Descrição do que será realizado na Etapa 2.
+>     Será necessários estudar, dentre outras coisas:
+>     - Conversão do espaço de cores RGB para o espaço YCbCr
+>     - Chroma subsampling, em particular com taxa 4:2:0
+>     - Separação ou quebra da imagem em blocos 8x8, 16x8 ou 16x16
+>     - O algoritmo DCT, que consiste na decomposição da imagem de cada bloco nas componentes de frequência espacial
+>     - Quantização, que consiste em um truncamento para descartar altas frequências
+>     - Codificação entrópica, que consiste em uma codificação *lossless*, para armazenar de forma eficiente os dados obtidos da quantização
 >     
-> * Etapa 3 (2 semanas): Codificação e Testes.
 > 
->     Descrição do que será realizado na Etapa 3.
+> * Etapa 2 (mês de maio/2022): codificação do algoritmo em Python
+> 
+>     Consistirá em tentar implementar na linguagem Python o algoritmo estudado na etapa anterior.
 >     
-> e assim por diante.
-> 
-> Inclua no seu plano de trabalho a etapa de escrita de relatório final do projeto.
+> * Etapa 3 (mês de junho/2022): testes, aprimoramentos e elaboração do relatório final
 
 
 ## Referências Bibliográficas
