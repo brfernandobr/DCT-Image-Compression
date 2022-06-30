@@ -41,6 +41,7 @@ Várias simplicações foram adotadas:
 
 ## Resultados Finais
 Os resultados encontram-se no arquivo DCT_Image_Compression.html (versão html do Jupyter Notebook após executar todas as suas células de código), disponível para *download* neste link:
+
 https://drive.google.com/file/d/1VHdBVZEHQAfKBDNNeE1MuEYi6m1rfLfz/view?usp=sharing
 
 
