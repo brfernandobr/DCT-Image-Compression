@@ -21,9 +21,9 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 ## Abordagem Adotada
 
-> Qualquer computador ou telefone celular atual possui algum software ou circuito eletrônico dedicado que realiza compressão DCT de forma extremamente eficiente. Portanto neste projeto buscamos adotar uma abordagem mais investigativa e educativa, do que propriamente obter um arquivo JPEG ao final. Criamos um Jupyter Notebook em linguagem Python que realiza:
+> Qualquer computador ou telefone celular atual possui algum software ou circuito eletrônico dedicado que realiza compressão DCT de forma extremamente eficiente. Portanto neste projeto buscamos adotar uma abordagem mais investigativa e educativa, do que propriamente obter um arquivo JPEG ao final. Criamos um Jupyter Notebook em linguagem Python com as seguintes características:
 >
-> - O algoritmo DCT de duas formas distintas: inicialmente, o DCT usando quatro *loops for* aninhados com 8196 cálculos de cosseno por bloco 8x8 de pixels monocromáticos; em seguida, implementamos o DCT de forma mais rápida e eficiente por meio de duplo produto matricial empregando uma matriz de transformação ortogonal T;
+> - O algoritmo DCT é implementado de duas formas distintas: inicialmente, o DCT usando quatro *loops for* aninhados com 8196 cálculos de cosseno por bloco 8x8 de pixels monocromáticos; em seguida, implementamos o DCT de forma mais rápida e eficiente por meio de duplo produto matricial empregando uma matriz de transformação ortogonal T;
 > - Todos os cálculos intermediários forma executados usando float64. Numa implementação prática do algoritmo seria usada uma precisão menor, para maior rapidez e menor uso de recursos de hardware;
 > - Obtivemos as 64 funções-base, ou imagens-base, que formam a base do espaço vetorial do DCT no domínio da frequência;
 > - Implementamos a etapa de quantização dos coeficientes DCT e investigamos a relação entre a qualidade (valor inteiro de 1 a 100) usada na quantização e o resultado obtido;
