@@ -11,7 +11,6 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 > |--|--|--|
 > | Fernando Brasil Sales  | 265268  | Eng. de Computação |
 
-
 ## Descrição do Projeto
 
 > Este projeto consiste em desenvolver um Jupyter Notebook em linguagem Python para executar a compressão *lossy* de imagens usando a Transformada Discreta de Cosseno (DCT, na sigla em inglês). Este algoritmo é amplamente usado por diversos padrões populares, como o JPEG para compressão de imagens e o MPEG para compressão de vídeos. O termo inglês *lossy* significa que a imagem obtida possui perda de qualidade em relação à imagem original, em oposição a uma compressão *lossless* em que não há perda de qualidade.
@@ -19,7 +18,6 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 > A motivação vem da constatação de que, sem técnicas adequadas de compressão de imagens e vídeos como a efetuada pelo algoritmo DCT, a internet não existiria na forma como a conhecemos hoje. Serviços de hospedagem de fotografias e imagens, bem como a sua troca pela internet, seriam bastante impactados caso tivessem que usar arquivos *bitmap* sem compressão ou *png* com compressão *lossless*. Aplicações *web* como o YouTube, para hospedagem de vídeo, dificilmente poderiam existir, bem como serviços de vídeoconferência e vídeoaulas *online*. Podemos dizer que o impacto do algoritmo DCT se estende a praticamente todas as áreas da vida cotidiana, como lazer, trabalho, educação etc.
 > 
 > O objetivo principal é investigar a relação entre a taxa de compressão utilizada pelo algoritmo de compressão e o impacto na qualidade da imagem assim obtida.
-
 
 ## Abordagem Adotada
 
@@ -40,13 +38,11 @@ Várias simplicações foram adotadas:
 - Imagens com resolução não múltipla de 8x8 sofrem corte nos pixels excedentes à direita e em baixo;
 - O algoritmo não aceita imagens com canal alpha.
 
-
 ## Resultados Finais
 
 Os resultados encontram-se no arquivo DCT_Image_Compression.html (versão html do Jupyter Notebook após executar todas as suas células de código), disponível para *download* neste link:
 
 https://drive.google.com/file/d/1VHdBVZEHQAfKBDNNeE1MuEYi6m1rfLfz/view?usp=sharing
-
 
 ## Discussão
 
@@ -58,8 +54,6 @@ Da execução do Jupyter Notebook conseguimos tirar algumas conclusões:
 - Após aplicarmos DCT com quantização em algumas imagens, percebemos que o uso da qualidade padrão (de valor 50) na quantização representa um ótimo compromisso entre qualidade e compressão. Baixos valores de qualidade resultam em artefatos de compressão como blocos e lagoas de quantização bastante pronunciados, especialmente em áreas da imagem com sutil variação entre os pixels, como por exemplo em nuvens, céu, paredes, água etc. Um outro tipo de artefato de compressão gerado pela quantização chama-se Mosquito Noise: de forma semelhante a mosquitos voando em torno de uma pessoa, esse tipo de distorção da imagem aparece próxima a contornos nítidos de um objeto;
 - Ao tentarmos aplicar valores de qualidade de quantização muito altos, de 90 a 100, percebemos que o resultado às vezes tem tamanho em bytes até maior que a quantidade de bytes da imagem sem compressão, o que desvirtua totalmente o propósito da aplicação do algoritmo;
 - Consegue-se um melhor resultado baixando a resolução em pixels da imagem original e aplicando uma quantização com qualidade igual a 50 do que usando a imagem original e aplicando um valor baixo de qualidade. Qualidade igual a 50 deveria ser a qualidade mínima usada. Caso o tamanho em bytes da imagem final fique acima do desejado, é preferível baixar a resolução da imagem original do que baixar a qualidade da quantização.
-
-
 
 ## Referências Bibliográficas
 
