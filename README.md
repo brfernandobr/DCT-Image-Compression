@@ -13,6 +13,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 
 ## Descrição do Projeto
+
 > Este projeto consiste em desenvolver um Jupyter Notebook em linguagem Python para executar a compressão *lossy* de imagens usando a Transformada Discreta de Cosseno (DCT, na sigla em inglês). Este algoritmo é amplamente usado por diversos padrões populares, como o JPEG para compressão de imagens e o MPEG para compressão de vídeos. O termo inglês *lossy* significa que a imagem obtida possui perda de qualidade em relação à imagem original, em oposição a uma compressão *lossless* em que não há perda de qualidade.
 > 
 > A motivação vem da constatação de que, sem técnicas adequadas de compressão de imagens e vídeos como a efetuada pelo algoritmo DCT, a internet não existiria na forma como a conhecemos hoje. Serviços de hospedagem de fotografias e imagens, bem como a sua troca pela internet, seriam bastante impactados caso tivessem que usar arquivos *bitmap* sem compressão ou *png* com compressão *lossless*. Aplicações *web* como o YouTube, para hospedagem de vídeo, dificilmente poderiam existir, bem como serviços de vídeoconferência e vídeoaulas *online*. Podemos dizer que o impacto do algoritmo DCT se estende a praticamente todas as áreas da vida cotidiana, como lazer, trabalho, educação etc.
@@ -21,6 +22,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 
 ## Abordagem Adotada
+
 Qualquer computador ou telefone celular atual possui algum software ou circuito eletrônico dedicado que realiza compressão DCT de forma extremamente eficiente. Portanto neste projeto buscamos adotar uma abordagem mais investigativa e educativa, do que propriamente obter um arquivo JPEG ao final. Criamos um Jupyter Notebook em linguagem Python que realiza:
 
 - O algoritmo DCT de duas formas distintas: inicialmente, o DCT usando quatro *loops for* aninhados com 8196 cálculos de cosseno por bloco 8x8 de pixels monocromáticos; em seguida, implementamos o DCT de forma mais rápida e eficiente por meio de duplo produto matricial empregando uma matriz de transformação ortogonal T;
@@ -40,12 +42,14 @@ Várias simplicações foram adotadas:
 
 
 ## Resultados Finais
+
 Os resultados encontram-se no arquivo DCT_Image_Compression.html (versão html do Jupyter Notebook após executar todas as suas células de código), disponível para *download* neste link:
 
 https://drive.google.com/file/d/1VHdBVZEHQAfKBDNNeE1MuEYi6m1rfLfz/view?usp=sharing
 
 
 ## Discussão
+
 Da execução do Jupyter Notebook conseguimos tirar algumas conclusões:
 
 - Ao aplicarmos DCT e logo em seguida IDCT (DCT Inverso) em um bloco 8x8 monocromático, usando float64 em todas as etapas de cálculo e armazenamento dos resultados, conseguimos obter de volta a matriz 8x8 de pixels original com erro da ordem de 10^-13 (erro que atribuímos a erros de arredondamento dos coessenos e da representação em ponto flutuante). Portanto consideramos que o DCT e o IDCT são absolutamente "lossless" (sem perdas);
@@ -58,6 +62,7 @@ Da execução do Jupyter Notebook conseguimos tirar algumas conclusões:
 
 
 ## Referências Bibliográficas
+
 > https://en.wikipedia.org/wiki/Discrete_cosine_transform
 > 
 > https://en.wikipedia.org/wiki/JPEG
