@@ -40,9 +40,9 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 ## Resultados Finais
 
-> Os resultados encontram-se no arquivo DCT_Image_Compression.html (versão html do Jupyter Notebook após executar todas as suas células de código), disponível para *download* neste link:
+> Os resultados encontram-se no arquivo DCT_Image_Compression.html (versão html do Jupyter Notebook após executar todas as suas células de código), disponível para *download* neste *link*:
 >
-> ???????????????????????????????????????????????????????????????/
+> https://drive.google.com/file/d/18p8Y-MI6VejJAS4QPX9OEYLSpIywhm6M/view?usp=sharing
 
 ## Conclusões
 
