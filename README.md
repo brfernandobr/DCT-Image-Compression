@@ -44,7 +44,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 >
 > https://drive.google.com/file/d/1VHdBVZEHQAfKBDNNeE1MuEYi6m1rfLfz/view?usp=sharing
 
-## Discussão
+## Conclusões
 
 > Da execução do Jupyter Notebook conseguimos tirar algumas conclusões:
 >
